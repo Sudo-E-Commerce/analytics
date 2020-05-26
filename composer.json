@@ -1,0 +1,29 @@
+{
+    "name": "sudo/analytic",
+    "description": "Analytic Sudo package",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Nguyen Viet Hieu",
+            "email": "hieunvph04479@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-analytics": "^3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sudo\\Analytic\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sudo\\Analytic\\Providers\\AnalyticServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
