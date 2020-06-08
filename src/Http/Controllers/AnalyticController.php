@@ -24,7 +24,7 @@ class AnalyticController
 							->totalsForAllResults['rt:activeVisitors'];
 			return $data;
 		} catch (\Exception $e) {
-			Log::error($e);
+			\Log::error($e);
 			return __('Analytic::general.error');
 		}
 	}
