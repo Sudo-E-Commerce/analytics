@@ -1,9 +1,9 @@
 <div class="row">
 
 @foreach ($data['include']??[] as $key => $value)
-
-	@include($value['view'], ['id' => $key, 'data' => $value])
-
+	@if (checkRole('analytic_'$key))
+		@include($value['view'], ['id' => $key, 'data' => $value])
+	@endif
 @endforeach
 
 </div>
