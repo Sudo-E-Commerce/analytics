@@ -8,7 +8,7 @@
         <div class="icon">
             <i class="fas fa-users"></i>
         </div>
-        <a href="#" class="small-box-footer text-sm p-1 reload">@lang('Analytic::general.click_to_reload')</a>
+        <a href="javascript:;" class="small-box-footer text-sm p-1 reload">@lang('Analytic::general.click_to_reload')</a>
     </div>
 </div>
 <script>

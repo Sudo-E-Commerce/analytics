@@ -13,5 +13,5 @@ return [
 	'title' 						=> 'Title',
 	'views' 						=> 'Views',
 	'url' 							=> 'Url',
-	'top_referrers' 					=> 'Top Referrers',
+	'top_referrers' 				=> 'Top Referrers',
 ];
